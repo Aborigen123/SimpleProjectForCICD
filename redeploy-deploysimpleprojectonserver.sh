@@ -1,4 +1,4 @@
-echo 'WORKIGN'
+#!/bin/bash
 sudo systemctl stop simple-deploy-project.service
 if pgrep -x "dotnet" > /dev/null
 then
